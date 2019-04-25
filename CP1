@@ -1,0 +1,17 @@
+1.
+  "A Clockwork Orange" - string
+  42 - Integer
+  09/02/1945- Date
+  98.7- float
+  $15.99 - numeric value 
+  
+2.  
+  A database would be used in situations where you have several pieces of data that require additional information to be added to each or
+  that requires removing information. A text file would be used for more simple data structures or when dealing with just a single piece of
+  data (one user). 
+  
+3. 
+  SQL is declartive unlike other programming languages which are procedural. 
+  
+4.
+  
