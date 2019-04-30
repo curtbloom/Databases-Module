@@ -14,4 +14,69 @@
   SQL is declartive unlike other programming languages which are procedural. 
   
 4.
+  A Database is a means of storing data in an application which uses structured query language (unreadable by humans) to read or alter data. 
+  Data is stored in tables with rows, columns, and values. 
+
+5. 
+  Tables consist of rows and columns which contain values. 
+  Rows are structured from left to right that contain specific data. 
+  Columns are the categories a the top of a table that define the data contained within rows. 
+  Values are the actual words, numbers and other forms of data that are placed within the rows and are categorized by columns. 
+
+6. 
+  Floats, strings and integers. 
   
+7. 
+  Query: Gather date and amount from the payments table 
+  Results:        
+        
+        Date:	        Amount:
+        
+        2016-05-01	   1500
+        2016-05-10	   37
+        2016-05-15	   124.93
+        2016-05-23	   54.72 
+        
+  Query: Gather amounts from the payments table that are greater than 500. 
+  Results: 
+    
+        Amount: 
+        
+        1500 
+        
+  Query: Gather every column from the payments table that contain the payee Mega Foods 
+  Results: 
+   
+   Date:           Payee:      Amount:   Memo:
+    ('2016-05-15', 'Mega Foods', 124.93, 'Groceries') 
+    
+ 
+ 8. 
+   SELECT email, signup
+   FROM users
+   WHERE name = 'DeAndre Data';
+   
+   Outout:
+
+   email	            signup
+   datad@comcast.net	2008-01-20
+
+
+  SELECT userid
+  FROM users
+  WHERE email = 'aleesia.algorithm@uw.edu';
+  
+  Output:
+  
+  userid
+  1
+
+  
+  SELECT *
+  FROM users
+  WHERE userid = 4;
+  
+  Output:
+
+  userid	    name	          email	            signup
+  4	     Brandy Boolean	  bboolean@nasa.gov	  1999-10-15
